@@ -1,0 +1,163 @@
+header {
+    height: 100px;
+}
+
+.logo h1 {
+    font-size: 42px;
+    color: #424242;
+    font-family: "Helvetica Neue";
+    font-weight: bold;
+    display: inline-block;
+}
+
+.logo p {
+    font-size: 17px;
+    color: #424242;
+    font-family: "Helvetica Neue";
+    margin-left: 84px;
+    margin-top: -20px;
+
+}
+
+.active a {
+    color: red;
+}
+
+.nav-item {
+    font-size: 18px;
+    color: #de2b24;
+    font-family: "Helvetica Neue";
+    font-weight: bold;
+    margin-left: 5px;
+    margin-top: 6px;
+}
+
+.btn {
+    background: #de2b24;
+    color: white;
+    padding: 5px 25px;
+}
+
+.banner {
+    height: 600px;
+    background-image: url(../images/Layer%2032.png);
+    background-size: cover;
+    background-repeat: no-repeat no-repeat;
+    background-position: center center;
+}
+
+.banner_content h1 {
+    font-size: 48px;
+    color: #ffffff;
+    font-weight: bold;
+
+
+}
+
+.banner_content p {
+    font-size: 28px;
+    color: #ffffff;
+    font-weight: 100;
+}
+
+.banner_content .btn {
+    padding: 14px 67px;
+    background-color: #f8cd53;
+    font-size: 25px;
+
+}
+
+
+.about {
+    padding: 80px 20px;
+}
+
+
+.about_content h1 {
+    font-size: 36px;
+    color: #424242;
+
+}
+
+.about_content p {
+    font-size: 20px;
+    color: #424242;
+
+}
+
+.about_content p::after {
+    content: "";
+    position: absolute;
+    background: #424242;
+    width: 60px;
+    height: 4px;
+    left: 0;
+    right: 0;
+
+    margin: 0 auto;
+    bottom: 5px;
+}
+.about_us img {
+    margin-top: 30px;
+    margin-bottom: 35px;
+
+}
+.step1 {
+    padding: 30px;
+}
+.step1_text { 
+    margin: 80px;
+}
+.step2 {
+    padding: 30px;
+}
+.step2_text {
+    margin: 80px;
+}
+.step3 {
+    padding: 30px;
+    
+}
+.step3_text {
+    margin: 80px;
+}
+.projects {
+    background: #dd2b23;
+    height: 800px;
+}
+.projects .about_content {
+    color: white;
+}
+.projects_content {
+    margin-bottom: 10px;
+}
+.projects_content h1 {
+ margin-top:45px;
+    font-size: 36px;
+    color: white
+}
+
+
+.projects_content p {
+    font-size: 20px;
+    color: white;
+
+}
+
+.projects_content p::after {
+    content: "";
+    position: absolute;
+    background: white;
+    width: 60px;
+    height: 4px;
+    left: 0;
+    right: 0;
+
+    margin: 0 auto;
+    bottom: 5px;
+}
+.projects img {
+    height: 284px;
+    width: 289px;
+    margin-top: 20px;
+}
